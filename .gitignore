@@ -1,0 +1,8 @@
+# Source data and local files.
+data/raw/
+.DS_Store
+.backups/
+.internal/
+.env
+.env.*
+!.env.example
