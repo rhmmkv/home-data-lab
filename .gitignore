@@ -6,3 +6,4 @@ data/raw/
 .env
 .env.*
 !.env.example
+.ipynb_checkpoints/
