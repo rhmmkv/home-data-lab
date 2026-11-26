@@ -137,6 +137,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "rees46-electronics",
+      "role": "analysis-source",
+      "source": "https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-electronics-store",
+      "download_url": "https://www.kaggle.com/api/v1/datasets/download/mkechinov/ecommerce-events-history-in-electronics-store",
+      "archive": "data/raw/rees46-electronics/source.zip",
+      "archive_bytes": 21264160,
+      "archive_sha256": "f85ec03b665a10211fc99c85a0b1ab1f7d437fde3352c581ae395630647b7ea6",
+      "files": [
+        {
+          "path": "data/raw/rees46-electronics/csv/events.csv",
+          "bytes": 105762287,
+          "sha256": "2030b8347da2cc32f40c701b0cf21f9968a58780f940d30f3e32b17932e37544",
+          "rows": 885129,
+          "columns": [
+            "event_time",
+            "event_type",
+            "product_id",
+            "category_id",
+            "category_code",
+            "brand",
+            "price",
+            "user_id",
+            "user_session"
+          ],
+          "date_column": "event_time",
+          "date_min": "2020-09-24 11:57:06 UTC",
+          "date_max": "2021-02-28 23:59:09 UTC",
+          "event_types": {
+            "view": 793748,
+            "cart": 54035,
+            "purchase": 37346
+          }
+        }
+      ]
     }
   ]
 }
